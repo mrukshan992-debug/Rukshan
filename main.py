@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 ACCESS_TOKEN = "EAF9CkZCweGJABRdfotkAjLPnZBOHAPnbpwsAGuet2tiyPmB2I6Ou6lFwZBei6ARurNx0JLR9yJDN0iYMJ10YAXxzlnCBeyvk23nOPIIDLKSn4XH2luvBA0DLQH3a5Rf73KZC0OXc8UhYHJy8CHbDk8NhTt5XPgZBmEHcTVZAZBIbUHY9Cp3GeTtBSauL1PAGpzyrYhiZCMc5tXTXgDdmtQPZB7i9eOcHe3rRjBZArd"
 PHONE_NUMBER_ID = "1100816249779252"
-VERIFY_TOKEN = "rukshan123"
+VERIFY_TOKEN = "rukshan_whatsapp_bot_2026_secure"
 
 def send_msg(to, text):
     url = f"https://graph.facebook.com/v18.0/{PHONE_NUMBER_ID}/messages"
